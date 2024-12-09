@@ -1,0 +1,39 @@
+		body{
+			background-image:url(https://i.pinimg.com/736x/f6/ad/e8/f6ade8bfac004f680239861132f52e4e.jpg) ;
+			background-size: 100%;	
+			background-repeat: none;
+
+		}
+
+		.about-page, .contact-page {
+		    display: flex;
+		    flex-direction: column;
+		    justify-content: center;
+		    align-items: center;
+		    text-align: center;
+
+		}
+
+		.container{
+
+			background-color:hotpink;
+			opacity: 90%;
+			border-radius: 10px;
+
+		}
+		.navbar {
+   		 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		}
+
+		.nav-pills .nav-link {
+		    color: white;
+		    font-weight: bold;
+		}
+
+		.nav-pills .nav-link.active {
+		    background-color: hotpink;
+		}
+
+		.tab-content {
+		    margin-top: 20px;
+		}
